@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery.js"></script>
-  <script src="js/scripts.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Language Selector</title>
-</head>
-<body>
-  <div class="container">
-    <div>
-      <h1 id="title">Language Selector</h1>
-    </div>
-    <!-- Form -->
-    <form id="formOne">
-      <!-- Name -->
-      <div class="form-group">
-        <label for="name"><strong>Please Enter your Name:</strong></label>
-        <input id="name" class="form" type="text">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selector</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 id="title">Language Selector</h1>
       </div>
-      <!-- Question 1 -->
-      <div class="form-group" class="radio">
-        <label for="question1"><u><strong>Would you rather:</strong></u></label>
+      <!-- Form -->
+      <form id="formOne">
+        <!-- Name -->
+        <div class="form-group">
+          <label for="name"><strong>Please Enter your Name:</strong></label>
+          <input id="name" class="form" type="text">
+        </div>
+        <!-- Question 1 -->
+        <div class="form-group" class="radio">
+          <label for="question1"><u><strong>Would you rather:</strong></u></label>
           <div class="radio">
             <label>
-              <input type="radio" name="question1" value="cats" >
+              <input type="radio" name="question1" value="cats">
               a. Own 100 cats named Jeffery
             </label>
           </div>
@@ -36,10 +37,10 @@
               b. Own 200 grey Chinchillas
             </label>
           </div>
-      </div>
-      <!-- Question 2 -->
-      <div class="form-group" class="radio">
-        <label for="question2"><u><strong>Do you Color:</strong></u></label>
+        </div>
+        <!-- Question 2 -->
+        <div class="form-group" class="radio">
+          <label for="question2"><u><strong>Do you Color:</strong></u></label>
           <div class="radio">
             <label>
               <input type="radio" name="question2" value="inside">
@@ -52,10 +53,11 @@
               b. Outside the lines
             </label>
           </div>
-      </div>
-      <!-- Question 3 -->
-      <div class="form-group" class="radio">
-        <label for="question3"><u><strong>Which sock do you put on first in the morning:</strong></u></label>
+        </div>
+        <!-- Question 3 -->
+        <div class="form-group" class="radio">
+          <label for="question3"><u><strong>Which sock do you put on first in
+                the morning:</strong></u></label>
           <div class="radio">
             <label>
               <input type="radio" name="question3" value="left">
@@ -74,10 +76,10 @@
               c. Middle
             </label>
           </div>
-      </div>
-      <!-- Question 4 -->
-      <div class="form-group" class="radio">
-        <label for="question4"><u><strong>How do you open sliding glass doors:</strong></u></label>
+        </div>
+        <!-- Question 4 -->
+        <div class="form-group" class="radio">
+          <label for="question4"><u><strong>How do you open sliding glass doors:</strong></u></label>
           <div class="radio">
             <label>
               <input type="radio" name="question4" value="push">
@@ -90,10 +92,10 @@
               b. Pull
             </label>
           </div>
-      </div>
-      <!-- Question 5 -->
-      <div class="form-group" class="radio">
-        <label for="question5"><u><strong>From what end do you open soda:</strong></u></label>
+        </div>
+        <!-- Question 5 -->
+        <div class="form-group" class="radio">
+          <label for="question5"><u><strong>From what end do you open soda:</strong></u></label>
           <div class="radio">
             <label>
               <input type="radio" name="question5" value="top">
@@ -112,10 +114,10 @@
               c. Side
             </label>
           </div>
-      </div>
-      <!-- Question 6 -->
-      <div class="form-group" class="radio">
-        <label for="question6"><u><strong>What hand do you write with:</strong></u></label>
+        </div>
+        <!-- Question 6 -->
+        <div class="form-group" class="radio">
+          <label for="question6"><u><strong>What hand do you write with:</strong></u></label>
           <div class="radio">
             <label>
               <input type="radio" name="question6" value="rice">
@@ -134,10 +136,10 @@
               c. 17 Potatoes from Idaho
             </label>
           </div>
-      </div>
-      <!-- Question 7 -->
-      <div class="form-group" class="radio">
-        <label for="question7"><u><strong>Does your dog bark in:</strong></u></label>
+        </div>
+        <!-- Question 7 -->
+        <div class="form-group" class="radio">
+          <label for="question7"><u><strong>Does your dog bark in:</strong></u></label>
           <div class="radio">
             <label>
               <input type="radio" name="question7" value="russian">
@@ -156,30 +158,51 @@
               c. In Russian but with a German accent
             </label>
           </div>
-      </div>
+        </div>
 
-      <button class="btn btn-primary">Submit</button>
-    </form>
-    <!-- All a's Java div -->
-    <div id="all-b-java">
-      <h3><u>Nice Job <span class="name"></span>! We can tell you really like the letter B! You should learn Java.</u></h3>
+        <button data-toggle="modal" data-target="#myModal" class="btn btn-primary">Submit</button>
+      </form>
+      <!-- All a's Java div -->
+      <div id="all-b-java">
+        <h3>Nice Job <span class="name"></span>! We can tell you really like the
+          letter B! You should learn Java.</h3>
+      </div>
+      <!-- Java div -->
+      <div id="java">
+        <h3>Nice Job <span class="name"></span>! Java seems to be the language
+          for you!</h3>
+      </div>
+      <!-- React div -->
+      <div id="react">
+        <h3>Wow <span class="name"></span>! You're such a front-end type of
+          person! React is the language you're looking for!</h3>
+      </div>
+      <!-- Python div -->
+      <div id="python">
+        <h3>Uh... <span class="name"></span>? Are you a fan of Slytherin?
+          Becuase Python is calling your name./h3>
+      </div>
+      <!-- Ruby div Modal -->
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button id="closeButton" type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">These are your Results</h4>
+            </div>
+            <div id="ruby" class="modal-body">
+              <h3>Ruby feels Right for you <span class="name"></span>!</h3>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default"
+                data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
     </div>
-    <!-- Java div -->
-    <div id="java">
-      <h3><u>Nice Job <span class="name"></span>! Java seems to be the language for you!</u></h3>
-    </div>
-    <!-- React div -->
-    <div id="react">
-      <h3><u>Wow <span class="name"></span>! You're such a front-end type of person! React is the language you're looking for!</u></h3>
-    </div>
-    <!-- Python div -->
-    <div id="python">
-      <h3><u>Uh... <span class="name"></span>? Are you a fan of Slytherin? Becuase Python is calling your name. </u></h3>
-    </div>
-    <!-- Ruby div -->
-    <div id="ruby">
-      <h3><u>Ruby feels Right for you <span class="name"></span>!</u></h3>
-    </div>
-  </div>
-</body>
+  </body>
 </html>

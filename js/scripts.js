@@ -37,7 +37,7 @@ $(document).ready(function(){
       $("#java").hide();
       $("#python").hide();
       $("#react").hide();
-      $("#ruby").show();
+      $("#myModal").show();
     }
   });
 });
