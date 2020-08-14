@@ -10,25 +10,12 @@ body {
   color: lightblue;
 }
 
-/* #formOne {
+#formOne {
   float: left;
-} */
+}
 
-#java, #react, #python, #all-b-java {
+#java, #react, #python, #all-b-java, #ruby {
   display: none;
   float: right;
   width: 50%;
-}
-
-#closeButton {
-  margin: 1px;
-}
-
-.modal-header {
-  text-align: left;
-}
-
-.modal-title {
-  text-align: center;
-  color: black;
 }
