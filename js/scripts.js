@@ -8,18 +8,22 @@ $(document).ready(function(){
     const question4Input = $("input:radio[name=question4]:checked").val();
     const question5Input = $("input:radio[name=question5]:checked").val();
     const question6Input = $("input:radio[name=question6]:checked").val();
+    const question7Input = $("input:radio[name=question7]:checked").val();
     // -------- Conditional Statements ---------
-    if (question1Input === "cats" && question2Input === "inside" && question3Input === "left" && question4Input === "push" && question5Input === "top" && question6Input === "rice") {
+    if (question1Input === "cats" && question2Input === "inside" && question3Input === "left" && question4Input === "push" && question5Input === "top" && question6Input === "rice" && question7Input === "russian") {
       $("#java").hide();
       $("#react").hide();
+      $("#ruby").hide();
       $("#python").show();
-    } else if (question1Input === "chins" && question2Input === "outside" && question3Input === "right" && question4Input === "pull" && question5Input === "bottom" && question6Input === "backpack") {
+    } else if (question1Input === "chins" && question2Input === "outside" && question3Input === "right" && question4Input === "pull" && question5Input === "bottom" && question6Input === "backpack" && question7Input === "accent") {
       $("#python").hide();
       $("#react").hide();
+      $("#ruby").hide();
       $("#java").show();
-    } else if (question1Input === "chins" && question2Input === "inside" && question3Input === "middle" && question4Input === "push" && question5Input === "side" && question6Input === "potatoe") {
+    } else if (question1Input === "chins" && question2Input === "inside" && question3Input === "middle" && question4Input === "push" && question5Input === "side" && question6Input === "potatoe" && question7Input === "russianWithAccent") {
       $("#java").hide();
       $("#python").hide();
+      $("#ruby").hide();
       $("#react").show();
     } else {
       $("#java").hide();
