@@ -2,6 +2,7 @@ $(document).ready(function(){
   $("#formOne").submit(function(event) {
     event.preventDefault();
     // -------------- Variables ---------------
+    const nameInput = $("input#name").val();
     const question1Input = $("input:radio[name=question1]:checked").val();
     const question2Input = $("input:radio[name=question2]:checked").val();
     const question3Input = $("input:radio[name=question3]:checked").val();
@@ -9,6 +10,8 @@ $(document).ready(function(){
     const question5Input = $("input:radio[name=question5]:checked").val();
     const question6Input = $("input:radio[name=question6]:checked").val();
     const question7Input = $("input:radio[name=question7]:checked").val();
+    // ------------- Name to Text --------------
+    $(".name").text(nameInput);
     // -------- Conditional Statements ---------
     if (question1Input === "cats" && question2Input === "inside" && question3Input === "left" && question4Input === "push" && question5Input === "top" && question6Input === "rice" && question7Input === "russian") {
       $("#java").hide();
