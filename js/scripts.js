@@ -18,11 +18,16 @@ $(document).ready(function(){
       $("#react").hide();
       $("#ruby").hide();
       $("#python").show();
-    } else if (question1Input === "chins" && question2Input === "outside" && question3Input === "right" && question4Input === "pull" && question5Input === "bottom" && question6Input === "backpack" && question7Input === "accent") {
+    } else if (question1Input === "chins" && question2Input === "inside" && question3Input === "right" && question4Input === "push" && question5Input === "bottom" && question6Input === "rice" && question7Input === "accent") {
       $("#python").hide();
       $("#react").hide();
       $("#ruby").hide();
       $("#java").show();
+    } else if (question1Input === "chins" && question2Input === "outside" && question3Input === "right" && question4Input === "pull" && question5Input === "bottom" && question6Input === "backpack" && question7Input === "accent") {
+      $("#python").hide();
+      $("#react").hide();
+      $("#ruby").hide();
+      $("#all-b-java").show();
     } else if (question1Input === "chins" && question2Input === "inside" && question3Input === "middle" && question4Input === "push" && question5Input === "side" && question6Input === "potatoe" && question7Input === "russianWithAccent") {
       $("#java").hide();
       $("#python").hide();
