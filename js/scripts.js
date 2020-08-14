@@ -5,7 +5,7 @@ $(document).ready(function(){
     const question1Input = $("input:radio[name=question1]:checked").val();
     const question2Input = $("input:radio[name=question2]:checked").val();
     const question3Input = $("input:radio[name=question3]:checked").val();
-    const question4Input = $("input:radio[name=question3]:checked").val();
+    const question4Input = $("input:radio[name=question4]:checked").val();
 
     if (question1Input === "cats" && question2Input === "inside" && question3Input === "left" && question4Input === "push") {
       $("#java").hide();
@@ -22,7 +22,7 @@ $(document).ready(function(){
     } else {
       $("#java").hide();
       $("#python").hide();
-      $("#react").show();
+      $("#ruby").show();
     }
   });
 });

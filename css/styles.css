@@ -10,6 +10,6 @@ body {
   color: lightblue;
 }
 
-#java, #react, #python {
+#java, #react, #python, #ruby {
   display: none;
 }
