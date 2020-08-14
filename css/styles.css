@@ -1,7 +1,13 @@
 #title {
-  color: lightcoral;
+  color: lightskyblue;
   font-size: 80px;
   text-shadow: black 2px 2px 2px;
+  margin-bottom: 35px;
+  padding-top: 10px;
+}
+body {
+  background-color: lightslategray;
+  color: lightblue;
 }
 
 #java, #react, #python {
