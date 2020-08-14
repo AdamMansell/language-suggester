@@ -17,7 +17,7 @@ $(document).ready(function(){
       $("#java").hide();
       $("#react").hide();
       $("#ruby").hide();
-      $("#python").show();
+      $("#python").fadeIn();
     } else if (question1Input === "chins" && question2Input === "inside" && question3Input === "right" && question4Input === "push" && question5Input === "bottom" && question6Input === "rice" && question7Input === "accent") {
       $("#python").hide();
       $("#react").hide();

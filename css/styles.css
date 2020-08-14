@@ -10,6 +10,11 @@ body {
   color: lightblue;
 }
 
+#formOne {
+  float: left;
+}
+
 #java, #react, #python, #ruby, #all-b-java {
   display: none;
+  float: right;
 }
