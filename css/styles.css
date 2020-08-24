@@ -5,7 +5,7 @@
 }
 body {
   background-color: lightslategray;
-  color: lightblue;
+  color: rgb(24, 88, 109);
 }
 
 #formOne {
@@ -16,6 +16,9 @@ body {
   display: none;
   float: right;
   width: 50%;
+}
+.card {
+  background-color: #14c8e8;
 }
 
 
