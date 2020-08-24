@@ -39,5 +39,6 @@ $(document).ready(function(){
       $("#react").hide();
       $("#ruby").show();
     }
+    document.getElementById("formOne").reset();
   });
 });
