@@ -27,6 +27,11 @@ body {
   border: gray 3px dotted;
 }
 
+#nameInputBox {
+  font-family: cursive;
+  font-size: 35px;
+}
+
 
 
 /* ------------ Title Animation -------------- */
@@ -38,7 +43,7 @@ body {
 
 
 .sign {
-  margin:5px;
+  margin:15px;
   width: 15px;
   height: 15px;
   background-image: radial-gradient(
@@ -50,7 +55,7 @@ body {
   letter-spacing: 3px;
   font-family: "Clip";
   
-  font-size: 20px;
+  font-size: 40px;
   color: #e6fdff;
   text-shadow: 0 0 0.6rem #e6f8ff, 0 0 1.5rem #65c1ff,
     -0.2rem 0.1rem 1rem #65adff, 0.2rem 0.1rem 1rem #65adff,
