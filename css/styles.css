@@ -17,6 +17,10 @@ body {
   float: right;
   width: 50%;
 }
+#java img, #react img, #python img, #all-b-java img, #ruby img {
+  width: 100%;
+  height: 50%;
+}
 .card {
   background-color: #14c8e8;
   margin: 15px;
