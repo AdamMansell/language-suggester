@@ -1,5 +1,5 @@
-$(document).ready(function(){
-  $("#formOne").submit(function(event) {
+$(document).ready(function () {
+  $("#formOne").submit(function (event) {
     event.preventDefault();
     // -------------- Variables ---------------
     const nameInput = $("input#name").val();
@@ -44,16 +44,18 @@ $(document).ready(function(){
 });
 
 
+// --------------- Code for Parallax ---------------
+
 var velocity = 0.5;
 
-function update(){ 
-    var pos = $(window).scrollTop(); 
-    $('.container').each(function() { 
-        var $element = $(this);
-        // subtract some from the height b/c of the padding
-        var height = $element.height();
-        $(this).css('backgroundPosition', '100% ' + Math.round((height - pos) * velocity) + 'px'); 
-    }); 
+function update() {
+  var pos = $(window).scrollTop();
+  $('.section-2').each(function () {
+    var $element = $(this);
+    // subtract some from the height b/c of the padding
+    var height = $element.height();
+    $(this).css('backgroundPosition', '100% ' + Math.round((height - pos) * velocity) + 'px');
+  });
 };
 
 $(window).bind('scroll', update);
